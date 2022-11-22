@@ -61,9 +61,13 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\BandeiraJapao.shader" />
+    <None Include="Assets\Neve.shader" />
     <None Include="Assets\BandeiraBangladesh.shader" />
+    <None Include="Assets\Oceano.shader" />
     <None Include="Assets\BandeiraAlemanha.shader" />
     <None Include="Assets\FolhaMexendo.shader" />
+    <None Include="Assets\Lava.shader" />
+    <None Include="Assets\Sun.shader" />
     <None Include="Assets\BandeiraFrança.shader" />
   </ItemGroup>
   <ItemGroup>

@@ -15,11 +15,11 @@ C:/Users/Consultorio 1/Desktop/ShaderBandeiras/ShaderBandeiras
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62873
+64353
 Successfully changed project path to: C:/Users/Consultorio 1/Desktop/ShaderBandeiras/ShaderBandeiras
 C:/Users/Consultorio 1/Desktop/ShaderBandeiras/ShaderBandeiras
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 51.22 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 51.26 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.32f1 (12f8b0834f07)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/Resources/UnitySubsystems
@@ -30,41 +30,41 @@ Direct3D:
     Renderer: NVIDIA GeForce GTX 1660 (ID=0x2184)
     Vendor:   
     VRAM:     5991 MB
-    Driver:   30.0.15.1215
+    Driver:   31.0.15.1694
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56876
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56816
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Registered in 0.002170 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 52.85 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 56.59 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.616 seconds
+- Completed reload, in  0.614 seconds
 Domain Reload Profiling:
-	ReloadAssembly (617ms)
-		BeginReloadAssembly (68ms)
+	ReloadAssembly (614ms)
+		BeginReloadAssembly (65ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
 		EndReloadAssembly (472ms)
-			LoadAssemblies (66ms)
+			LoadAssemblies (63ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (149ms)
+			SetupTypeCache (146ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (185ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (187ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (53ms)
-				BeforeProcessingInitializeOnLoad (17ms)
+				RefreshPlugins (57ms)
+				BeforeProcessingInitializeOnLoad (16ms)
 				ProcessInitializeOnLoadAttributes (81ms)
 				ProcessInitializeOnLoadMethodAttributes (28ms)
 				AfterProcessingInitializeOnLoad (0ms)
@@ -73,35 +73,35 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003985 seconds.
+Registered in 0.003914 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 51.73 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 53.55 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.159 seconds
+- Completed reload, in  1.135 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1160ms)
-		BeginReloadAssembly (156ms)
+	ReloadAssembly (1136ms)
+		BeginReloadAssembly (155ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (935ms)
-			LoadAssemblies (106ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (915ms)
+			LoadAssemblies (109ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (304ms)
+			SetupTypeCache (300ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (357ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (350ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (52ms)
+				RefreshPlugins (54ms)
 				BeforeProcessingInitializeOnLoad (88ms)
-				ProcessInitializeOnLoadAttributes (195ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
+				ProcessInitializeOnLoadAttributes (188ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
 				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -110,14 +110,14 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2819 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 128.7 MB.
-System memory in use after: 128.8 MB.
+Unloading 2822 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.2 MB.
+System memory in use after: 129.4 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3257.
-Total: 3.744700 ms (FindLiveObjects: 0.272600 ms CreateObjectMapping: 0.097500 ms MarkObjects: 3.286200 ms  DeleteObjects: 0.086900 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3260.
+Total: 3.300500 ms (FindLiveObjects: 0.218700 ms CreateObjectMapping: 0.075700 ms MarkObjects: 2.920000 ms  DeleteObjects: 0.084700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,13 +131,31 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/M_Folhas.mat
-  artifactKey: Guid(7c0addad0a252fc4f87213c1255976d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M_Folhas.mat using Guid(7c0addad0a252fc4f87213c1255976d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eddee19e549ad389d2902dc7b82cd81d') in 0.234121 seconds 
+  path: Assets/M_Lava.mat
+  artifactKey: Guid(b6767eb8c7b84ee41986201688778850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M_Lava.mat using Guid(b6767eb8c7b84ee41986201688778850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b75e4908082882ef6f1110f69a346356') in 0.233720 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 92.773032 seconds.
-  path: Assets/M_Folhas.mat
-  artifactKey: Guid(7c0addad0a252fc4f87213c1255976d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/M_Folhas.mat using Guid(7c0addad0a252fc4f87213c1255976d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2575cfc8fa1ad629a6b7b5199525f74') in 0.017601 seconds 
+  Time since last request: 5.008910 seconds.
+  path: Assets/Lava.shader
+  artifactKey: Guid(adce4d17849923d49bf05dab4e2ad745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lava.shader using Guid(adce4d17849923d49bf05dab4e2ad745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2875fbe1bd4d4727e0ff5d8b69420360') in 0.011450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 49.769283 seconds.
+  path: Assets/lavatext.jpg
+  artifactKey: Guid(50cd825a3eb830949bbe789c07337aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/lavatext.jpg using Guid(50cd825a3eb830949bbe789c07337aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ac2531f033d4b9d47c7c2541c1d13c2') in 0.048291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6112.007082 seconds.
+  path: Assets/Lava.shader
+  artifactKey: Guid(adce4d17849923d49bf05dab4e2ad745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lava.shader using Guid(adce4d17849923d49bf05dab4e2ad745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ba1b9784af37839e1578162a87a7ac9') in 0.007959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 74.027719 seconds.
+  path: Assets/M_Lava.mat
+  artifactKey: Guid(b6767eb8c7b84ee41986201688778850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M_Lava.mat using Guid(b6767eb8c7b84ee41986201688778850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e3f352b82a9773276dfc10ff75be3de') in 0.047345 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
