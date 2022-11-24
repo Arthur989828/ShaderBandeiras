@@ -4,6 +4,7 @@ Shader "Unlit/Lava"
     {
         _MainTex ("Texture", 2D) = "white" {}
         _Distortion ("Texture", 2D) = "white" {}
+        //_DistortionIntensity("Distortion Intensity", float) = 1
     }
     SubShader
     {
@@ -46,7 +47,7 @@ Shader "Unlit/Lava"
             {
                 // sample the texture
                 fixed4 distortion = tex2D(_Distortion, i.uv.zw);
-                fixed4 col = tex2D(_MainTex, i.uv.xy + distortion.rg);
+                fixed4 col = tex2D(_MainTex, i.uv.xy + distortion.rg ); //*_DistortionIntensity
                 return col;
             }
             ENDCG
